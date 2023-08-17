@@ -2,19 +2,29 @@
 
 document.getElementById("calculate").addEventListener("click",function(){
     const inputs=getInputById("income")
-    console.log(inputs)
-    const food=getInputById("food")
-    console.log(food)
-    const rent=getInputById("rent")
-    console.log(rent)
-    const cloth=getInputById("cloth")
-    console.log(cloth)
-    
-const sum=food + rent + cloth
-
+const food=getInputById("food")
+const rent=getInputById("rent")
+const cloth=getInputById("cloths")
+const disc=getInputById("disc")
+    const sum=food + rent + cloth
 const balance= inputs-sum
 let sums= setValue("expens",sum)
-return sums;
-// setValue("bala",balance)
+let subs= setValue("bala",balance)
 
 })
+// document.getElementById("save").addEventListener("click",function(){
+//     const sum=food + rent + cloth
+//     if(disc===20){
+//         const save=20/100;
+//         const pay=sum-save;
+//         setValue("saving",save)
+//         setValue("total",pay)
+//     }
+//     else{
+//         setValue("saving",0)
+//         setValue("total",sum)
+
+//     }
+    
+
+// })
