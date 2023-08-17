@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/74461efed3.js" crossorigin="anonymous"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+    </style>
+</head>
+<body class="font-sans mx-5 lg:mx-auto lg:max-w-screen-xl" >
+<header>
+    <h1 class="font-bold text-5xl my-7 text-center text-[#31A5AC]">
+        Money Master💰 
+    </h1>
+    <main>
+        <section>
+            <div class=" flex flex-col lg:flex lg:flex-row gap-10 mt-16 mb-11">
+                <div>
+                    <img src="./Capture.PNG" class="w-[70%] m-[auto] lg:w-[705px] rounded-2xl" alt="" srcset="">
+                </div>
+                <div
+                class="w-[80%] px-4 m-[auto] rounded-2xl bg-[#F8F8F8] text-center  lg:w-[542px] ">
+
+                <h2 class="text-2xl font-semibold mb-6 mt-10">INCOME</h2>
+                <p class="text-lg font-normal">Income: <span><input type="text"id="income" class="text-base w-2/5 p-2 bg-[#DCDCDC] rounded-md  "></span></p>
+                <h2 class="text-2xl font-semibold mb-6 mt-10">Expenses</h2>
+                <p class="text-lg font-normal my-4">Food: <span><input type="text"id="food" class="text-base w-2/5 p-2 bg-[#DCDCDC] rounded-md  "></span></p>
+                <p class="text-lg font-normal">Rent:          <span><input type="text"id="rent" class="text-base w-2/5 p-2 bg-[#DCDCDC] rounded-md  "></span></p>
+
+                <p class="text-lg font-normal my-4">Cloth: <span><input type="text"id="cloths" class="text-base w-2/5 p-2 bg-[#DCDCDC] rounded-md  "></span></p>
+                <button class="bg-cyan-500 p-2 text-2xl w-[199px] font-bold rounded-2xl text-white hover:bg-teal-300"id="calculate">calculate</button>
+                <h2 class="text-2xl font-semibold mb-2 mt-10">Total Expenses: <span id="expens">00</span></h2>
+                <h2 class="text-2xl font-semibold mb-7 ">balance: <span id="bala">00</span></h2>
+                <div class="flex gap-6 justify-center items-center">
+                    <input type="text" class="text-base w-1/5 p-2 bg-[#DCDCDC] rounded-md  "><p class="text-3xl font-bold">%</p><button class="bg-cyan-500 p-2 text-2xl w-[199px] font-bold rounded-2xl text-white hover:bg-teal-300" id="save">save</button>
+                  
+                </div>
+                <h2 class="text-2xl font-semibold mb-2 mt-10">saving amount: <span id="saving">00</span></h2>
+                <h2 class="text-2xl font-semibold mb-10 ">Remaining amount: <span id="total">00</span></h2>
+            </div>
+            </div>
+        </section>
+    </main>
+</header>
+</body>
+</html>
