@@ -35,7 +35,7 @@ const disc=getInputById("disc")
     else{
         setValue("saving",0)
         setValue("total",expens)
-
+        
     }
     
 
