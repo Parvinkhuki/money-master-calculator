@@ -12,7 +12,7 @@ if(isNaN(inputs)){
     
 const balance= inputs-sum
 if(balance<0){
-    return alert("balance is 0 You poor)
+    return alert("balance is 0 You poor")
 }
 let sums= setValue("expens",sum)
 let subs= setValue("bala",balance)
